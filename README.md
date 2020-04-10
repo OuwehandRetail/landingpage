@@ -1,0 +1,2 @@
+# landingpage
+Laravel module Landingpage
