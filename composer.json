@@ -1,0 +1,14 @@
+{
+    "name": "ouwehandretail/Landingpage",
+    "description": "Modular Landingpage Implementation",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.*",
+        "konekt/concord": ">=1.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "OuwehandRetail\\Landingspage\\": "src/"
+        }
+    }
+}
