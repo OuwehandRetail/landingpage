@@ -9,7 +9,7 @@ class ModuleServiceProvider  extends ServiceProvider
 {
     public function boot(Router $router)
     {
-        include __DIR__ . '/../Http/routes.php';
+        include __DIR__ . '/../routes/web.php';
 
         $this->loadViewsFrom(__DIR__ . '/../Resources/views', 'landingpage');
     }
